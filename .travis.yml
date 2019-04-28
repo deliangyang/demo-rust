@@ -1,0 +1,13 @@
+language: rust
+
+rust:
+  - stable
+  - nightly
+
+script:
+  - cargo test --tests
+  - cargo build --verbose
+
+branches:
+  only:
+    - master

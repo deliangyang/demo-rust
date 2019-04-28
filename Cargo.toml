@@ -1,0 +1,11 @@
+[package]
+name = "helloworld"
+version = "0.1.0"
+authors = ["ydl <623601391@qq.cn>"]
+
+[dependencies]
+
+
+[[test]]
+name = "add"
+path = "tests/run.rs"
