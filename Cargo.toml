@@ -5,6 +5,7 @@ authors = ["ydl <623601391@qq.cn>"]
 
 [dependencies]
 regex = "1.1.6"
+notify = "4.0.10"
 
 [[test]]
 name = "add"
