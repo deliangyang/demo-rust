@@ -11,3 +11,6 @@ script:
 branches:
   only:
     - master
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -t c9f3efbd-44b8-4c5c-998d-70a06b40e0e9
