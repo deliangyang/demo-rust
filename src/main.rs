@@ -41,7 +41,14 @@ fn parse_event(event: DebouncedEvent) {
     }
 }
 
+macro_rules! test {
+    () => {
+        println!("test")
+    };
+}
+
 fn main(){
+    test!();
 
     let args: Vec<String> = env::args().collect();
 
